@@ -55,5 +55,11 @@ public class MusicAppController {
 	{
 		return songService.getNumberOfSongsInAlbum(albumName);
 	}
+	@GetMapping("/messageInfo")
+	public String hello(){
+		System.out.println("hello");
+		return "hello";
+	}
+	
 
 }
