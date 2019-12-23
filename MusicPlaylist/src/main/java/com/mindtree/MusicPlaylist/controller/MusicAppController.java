@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mindtree.MusicPlaylist.dto.AlbumDto;
 import com.mindtree.MusicPlaylist.dto.SongDto;
 import com.mindtree.MusicPlaylist.entity.Album;
-import com.mindtree.MusicPlaylist.entity.Song;
 import com.mindtree.MusicPlaylist.exception.MusicCompanyServiceException;
 import com.mindtree.MusicPlaylist.service.AlbumService;
 import com.mindtree.MusicPlaylist.service.ArtistService;
